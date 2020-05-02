@@ -6,6 +6,7 @@ class Projects extends Component {
    constructor(props) {
        super(props);
        this.state = {activeTab: 0 };
+       
    }
  
 
@@ -16,7 +17,6 @@ class Projects extends Component {
                 <CardTitle style={{color: '#fff', height:'170px', background: 
                 'url(https://reactjs.org/logo-og.png) center / cover'}}></CardTitle>
                 <CardText> 
-                Coming Soon!
                 </CardText>            
                 <CardActions border>
                     <Button colored>
@@ -27,7 +27,7 @@ class Projects extends Component {
     } else if(this.state.activeTab === 1) {
         return (
             <Card shadow={5} style={{minWidth: '458', margin: 'auto'}}>
-                <CardTitle style={{color: 'black', height:'170px', background: 
+                <CardTitle style={{color: 'black',backgroundColor: 'gray', height:'170px', background: 
                 'url(https://cdn.clipart.email/d677a8f592198338f6ffe9940241647f_javascript-logo-logo-de-java-script-png-png-image-transparent-_820-377.jpeg) center / cover'}}></CardTitle>
                 <CardText> 
                 </CardText>            
@@ -48,7 +48,7 @@ class Projects extends Component {
                 </CardText>            
                 <CardActions border>
                     <Button colored>
-                    <a href="http://zachapp.me/Inventory/index.php" rel="noopener noreferrer" target="_blank">GitHub</a></Button>
+                    <a href="http://zachapp.me/Inventory/index.php" rel="noopener noreferrer" target="_blank">Inventory Management</a></Button>
                 </CardActions>
             </Card>
         )

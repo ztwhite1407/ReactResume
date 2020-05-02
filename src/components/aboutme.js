@@ -6,7 +6,9 @@ class About extends Component {
     render() {
         return (
             <Grid>
+            <center>
                 <Cell className="aboutme-col">
+                <center>
                     <div>
                         <h1>About Me</h1>
                         <p>
@@ -20,7 +22,9 @@ class About extends Component {
                             say hey.  
                         </p>
                     </div>
+                    </center>
                 </Cell>
+                </center>
             </Grid>
         )
     }
