@@ -21,7 +21,11 @@ class Projects extends Component {
                 </CardText>            
                 <CardActions border>
                     <Button colored>
+<<<<<<< HEAD
                     <a href="https://ztwhite1407.github.io/ReactRobo/" rel="noopener noreferrer" target="_blank">React App</a></Button>
+=======
+                    <a href="https://ztwhite1407.github.io/ReactRobo/" rel="noopener noreferrer" target="_blank">GitHub</a></Button>
+>>>>>>> 2e2342811b5e0b2ad1e23d3a2afe6f5afe88bfd0
                 </CardActions>
             </Card>
         )
