@@ -17,10 +17,11 @@ class Projects extends Component {
                 <CardTitle style={{color: '#fff', height:'170px', background: 
                 'url(https://reactjs.org/logo-og.png) center / cover'}}></CardTitle>
                 <CardText> 
+                React
                 </CardText>            
                 <CardActions border>
                     <Button colored>
-                    <a href="https://github.com/ztwhite1407/MyProjects/tree/master/Inventory%20Application" rel="noopener noreferrer" target="_blank">GitHub</a></Button>
+                    <a href="https://ztwhite1407.github.io/ReactRobo/" rel="noopener noreferrer" target="_blank">React App</a></Button>
                 </CardActions>
             </Card>
         )
@@ -30,6 +31,7 @@ class Projects extends Component {
                 <CardTitle style={{color: 'black',backgroundColor: 'gray', height:'170px', background: 
                 'url(https://cdn.clipart.email/d677a8f592198338f6ffe9940241647f_javascript-logo-logo-de-java-script-png-png-image-transparent-_820-377.jpeg) center / cover'}}></CardTitle>
                 <CardText> 
+                JavaScript
                 </CardText>            
                 <CardActions border>
                     <Button colored>
@@ -42,9 +44,9 @@ class Projects extends Component {
         return (
             <Card shadow={5} style={{minWidth: '458', margin: 'auto'}}>
                 <CardTitle style={{color: 'black', fontWeight: 'heavy', height:'170px', background: 
-                'url(https://www.vippng.com/png/detail/66-666240_elephant-clipart-black-and-white-2d-elephant.png) center / cover'}}></CardTitle>
+                'url(https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/php_logo.png) center / cover'}}></CardTitle>
                 <CardText> 
-                
+                PHP
                 </CardText>            
                 <CardActions border>
                     <Button colored>
@@ -58,7 +60,7 @@ class Projects extends Component {
                 <CardTitle style={{color: '#fff', height:'170px', background: 
                 'url(https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/123783891/original/68d37df18e906fa134fc75bf59420298e7098dd2/design-small-scale-java-applications-with-swing-or-java-fx.png) center / cover'}}></CardTitle>
                 <CardText> 
-                
+                Java
                 </CardText>            
                 <CardActions border>
                     <Button colored>
@@ -70,9 +72,9 @@ class Projects extends Component {
         return (
             <Card shadow={5} style={{minWidth: '458', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height:'170px', background: 
-                'url(https://seeklogo.com/images/C/c-programming-language-logo-9B32D017B1-seeklogo.com.png) center / cover'}}></CardTitle>
+                'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTyv6NYtw72FQynErUn7If3cgiDKHEey_tqUVdxTM5Vl4Jdiar1&usqp=CAU) center / cover'}}></CardTitle>
                 <CardText> 
-                
+                C
                 </CardText>            
                 <CardActions border>
                     <Button colored>
@@ -86,7 +88,7 @@ class Projects extends Component {
                 <CardTitle style={{color: '#fff', height:'170px', background: 
                 'url(https://miro.medium.com/max/720/1*ay9nx1XdZ3AOzx5Ev8xJEg.png) center / cover'}}></CardTitle>
                 <CardText> 
-                
+                NodeJS
                 </CardText>            
                 <CardActions border>
                     <Button colored>
