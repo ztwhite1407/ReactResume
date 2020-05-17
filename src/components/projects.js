@@ -20,7 +20,7 @@ class Projects extends Component {
                 </CardText>            
                 <CardActions border>
                     <Button colored>
-                    <a href="https://github.com/ztwhite1407/MyProjects/tree/master/Inventory%20Application" rel="noopener noreferrer" target="_blank">GitHub</a></Button>
+                    <a href="https://ztwhite1407.github.io/ReactRobo/" rel="noopener noreferrer" target="_blank">GitHub</a></Button>
                 </CardActions>
             </Card>
         )
